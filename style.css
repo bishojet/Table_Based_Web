@@ -1,0 +1,48 @@
+.mynav{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.mynav a{
+	text-decoration: none;
+	display: block;
+	background-color: #666;
+	margin-bottom: 1px;
+	color: #ddd;
+	padding: 5px;
+}
+.mynav a:hover{
+	background-color: #444;
+}
+.mainnav{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.mainnav li{
+	float: left;
+}
+.mainnav li a{
+	text-decoration: none;
+	background-color: #666;
+	margin-bottom: 1px;
+	color: #ddd;
+	padding: 10px 30px;
+	font-size: 20px;
+}
+.mainnav li a:hover{
+	background-color: #444;
+}
+table.mytable{
+	margin:20px 10px 10px 80px;
+	width: 900px;
+}
+table.mytable tr{
+	text-align: center;
+}
+table.mytable tr:nth-child(odd){
+	background-color: #bbb9ba;
+}
+table.mytable tr:hover{
+	background-color: #ccc9ba;
+}
