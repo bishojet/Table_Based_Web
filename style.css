@@ -34,15 +34,25 @@
 	background-color: #444;
 }
 table.mytable{
-	margin:20px 10px 10px 80px;
-	width: 900px;
+	margin:20px 10px 10px 60px;
+	width: 1000px;
 }
 table.mytable tr{
 	text-align: center;
 }
-table.mytable tr:nth-child(odd){
-	background-color: #bbb9ba;
+table.mytable th{
+	background-color: black;
+	color: #fff;
+	padding: 10px 0px;
+}
+table.mytable tr{
+	height: 30px;
+}
+table.mytable tr:nth-child(2n+1){
+	background-color: white;
 }
 table.mytable tr:hover{
-	background-color: #ccc9ba;
+	background-color: #bbb9ba;
+
 }
+
