@@ -53,6 +53,5 @@ table.mytable tr:nth-child(2n+1){
 }
 table.mytable tr:hover{
 	background-color: #bbb9ba;
-
 }
 
